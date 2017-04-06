@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_game1_1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ca.bcit.comp3717.a00936830.wordpuzzle.parks_level1"
+    android:background="@android:color/holo_green_dark">
+
+    <Button
+        android:text="Done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/done11"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+    android:text="I"
+    android:textSize="14sp"
+    android:maxLength="1"
+    android:inputType="textCapCharacters"
+    android:textAlignment="center"
+    android:padding="10dp"
+    android:background="@drawable/border"
+    android:layout_width="35dp"
+    android:layout_height="35dp"
+    android:id="@+id/I1_victoria"
+        android:layout_alignBaseline="@+id/V_victoria"
+        android:layout_alignBottom="@+id/V_victoria"
+        android:layout_toEndOf="@+id/V_victoria" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/I2_victoria"
+        android:layout_alignBaseline="@+id/V_victoria"
+        android:layout_alignBottom="@+id/V_victoria"
+        android:layout_toEndOf="@+id/R_victoria" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/R_victoria"
+        android:layout_alignBaseline="@+id/V_victoria"
+        android:layout_alignBottom="@+id/V_victoria"
+        android:layout_toEndOf="@+id/O_victoria" />
+
+    <TextView
+        android:text="A"
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/A_victoria"
+        android:layout_alignBaseline="@+id/V_victoria"
+        android:layout_alignBottom="@+id/V_victoria"
+        android:layout_toEndOf="@+id/I2_victoria" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/N1_clinton"
+        android:layout_below="@+id/I1_victoria"
+        android:layout_toEndOf="@+id/V_victoria" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/T_clinton"
+        android:layout_below="@+id/N1_clinton"
+        android:layout_alignStart="@+id/N1_clinton" />
+
+    <EditText
+    android:textSize="14sp"
+    android:maxLength="1"
+    android:inputType="textCapCharacters"
+    android:textAlignment="center"
+    android:padding="10dp"
+    android:background="@drawable/border"
+    android:layout_width="35dp"
+    android:layout_height="35dp"
+    android:id="@+id/O_clinton"
+        android:layout_below="@+id/T_clinton"
+        android:layout_alignStart="@+id/T_clinton" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/N2_clinton"
+        android:layout_below="@+id/O_clinton"
+        android:layout_alignStart="@+id/O_clinton" />
+
+
+    <TextView
+        android:text="A"
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/A_cityhall"
+        android:layout_alignBaseline="@+id/A_victoria"
+        android:layout_alignBottom="@+id/A_victoria"
+        android:layout_toEndOf="@+id/I2_victoria" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/L1_cityhall"
+        android:layout_below="@+id/A_victoria"
+        android:layout_toEndOf="@+id/I2_victoria" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/L2_cityhall"
+        android:layout_below="@+id/L1_cityhall"
+        android:layout_alignStart="@+id/L1_cityhall" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/H_cityhall"
+        android:layout_above="@+id/A_victoria"
+        android:layout_toEndOf="@+id/I2_victoria" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/Y_cityhall"
+        android:layout_above="@+id/H_cityhall"
+        android:layout_alignStart="@+id/H_cityhall" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/T_cityhall"
+        android:layout_above="@+id/Y_cityhall"
+        android:layout_alignStart="@+id/Y_cityhall" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/I_cityhall"
+        android:layout_above="@+id/T_cityhall"
+        android:layout_alignStart="@+id/T_cityhall" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/C_cityhall"
+        android:layout_above="@+id/I_cityhall"
+        android:layout_alignStart="@+id/I_cityhall" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/T_victoria"
+        android:layout_alignBaseline="@+id/O_waterfront"
+        android:layout_alignBottom="@+id/O_waterfront"
+        android:layout_toEndOf="@+id/C_victoria" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/C_victoria"
+        android:layout_alignBaseline="@+id/T_victoria"
+        android:layout_alignBottom="@+id/T_victoria"
+        android:layout_toEndOf="@+id/I1_victoria" />
+
+    <TextView
+        android:text="O"
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/O_victoria"
+        android:layout_alignBaseline="@+id/R_victoria"
+        android:layout_alignBottom="@+id/R_victoria"
+        android:layout_alignStart="@+id/R1_waterfront" />
+
+    <TextView
+        android:text="O"
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/O_waterfront"
+        android:layout_alignBaseline="@+id/R_victoria"
+        android:layout_alignBottom="@+id/R_victoria"
+        android:layout_alignStart="@+id/O_victoria" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/N_waterfront"
+        android:layout_below="@+id/R_victoria"
+        android:layout_toEndOf="@+id/T_victoria" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/R1_waterfront"
+        android:layout_above="@+id/R_victoria"
+        android:layout_toEndOf="@+id/T_victoria" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:id="@+id/F_waterfront"
+        android:layout_above="@+id/R1_waterfront"
+        android:layout_alignStart="@+id/R1_waterfront"
+        android:layout_height="33dp" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/T1_waterfront"
+        android:layout_below="@+id/A_waterfront"
+        android:layout_alignStart="@+id/E_waterfront" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:id="@+id/E_waterfront"
+        android:layout_below="@+id/T1_waterfront"
+        android:layout_alignStart="@+id/F_waterfront"
+        android:layout_height="33dp" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/V_victoria"
+        android:layout_below="@+id/E_waterfront"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="101dp" />
+
+    <TextView
+        android:text="I"
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/I_clinton"
+        android:layout_alignBaseline="@+id/I1_victoria"
+        android:layout_alignBottom="@+id/I1_victoria"
+        android:layout_toEndOf="@+id/V_victoria" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/C_clinton"
+        android:layout_above="@+id/L_clinton"
+        android:layout_alignStart="@+id/L_clinton" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/L_clinton"
+        android:layout_above="@+id/I1_victoria"
+        android:layout_toEndOf="@+id/V_victoria" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/W_waterfront"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/A_waterfront" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/A_waterfront"
+        android:layout_below="@+id/W_waterfront"
+        android:layout_alignStart="@+id/T1_waterfront" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/T2_waterfront"
+        android:layout_below="@+id/N_waterfront"
+        android:layout_alignStart="@+id/N_waterfront" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/R2_waterfront"
+        android:layout_below="@+id/E_waterfront"
+        android:layout_alignStart="@+id/F_waterfront" />
+
+</RelativeLayout>

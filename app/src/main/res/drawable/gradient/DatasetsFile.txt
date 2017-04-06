@@ -1,0 +1,107 @@
+Accessible Public Washrooms|Listing of all the accessible washrooms that are available within the City. |Parks and Recreation
+Addresses|A list of addresses for the City of New Westminster. | City Government
+Alternative Fuels and Electric Charging Stations|Electric vehicles are an environmentally friendly mode of transportation. As cleaner emission vehicles gain momentum across the lower mainland, the City of New Westminster is putting itself on the map alongside leading municipalities by incorporating electric vehicles into the City's automotive fleet and installing electric vehicle charging stations in the community. |Transportation
+Bike Routes|This dataset contains bike routes including planned and current bikeways, on-street and off-street, as well as dedicated lanes. |Parks and Recreation
+Bus Routes|Bus Routes within New Westminster.|Transportation
+Bus Stops|Bus Stop locations within New Westminster noting which are accessible.|Transportation
+Block Reference File|The blocks correspond to a division of the City into about 400 blocks, set up by the City Planner in about 1970. The purpose of these geographic descriptions was to enable more rapid tallying of information by subareas of the City. The geographic subdivision keys would provide easier selection of which properties to include in a run for a report without having to rely on property folio designations which are subject to change, consolidation and subdivision. |Lands and Development
+Building Age|The age of most buildings in the City (year it was built) as well as some historical data such as the Building Name, Developer/Builder, Architect/Designer and year the building has been moved if relevant and available. |Heritage Datasets
+Building Attributes|Building development specifics including the number of floors above and below ground, the number of residential units, square footage, size of the footprint and site coverage, and address. |Lands and Development
+Building Footprints|Outlines of buildings.  All primary buildings such as residential and commerical are included. |Lands and Development
+Business Licenses (Active - Resident)|New Westminster has an annual renewal of approximately 4,000 business licenses each year. Business Licensing also issues licenses for liquor establishments and municipal decals. | Business and Economy
+Business Licenses (Inter-Municipal) |As of October 1, 2013, an Inter-municipal Business License will be available in the Metro West region. For $250, eligible businesses may be licensed to work in all of the following municipalities: | Business and Economy
+Business Licenses (New for 2016)|Every business in the City of New Westminster is required to have a valid business license before beginning operation. This includes home-based businesses, commercial and industrial operations and owners of apartment rental properties. | Business and Economy
+Business Licenses (Non-Residents)|Contractors from different municipalities doing business within New Westminster | Business and Economy
+Cemeteries|No Description Available | Community
+City Boundaries|City of New Westminster Boundaries. | City Government
+City Energy Use Through Time|Financial disclosure form completed annually by all elected officials. Shows the amount of energy consumed and greenhouse gases created through time. |Electrical
+City Facility Buildings|No Description Available
+City Facility Sites|No Description Available |Community
+City Owned Property|Parcels of property currently owned by the Corporation of the City of New Westminster. | City Government
+Community Conversation on Housing Comments (Our City 2014)|Got to https://www.newwestcity.ca/ourcity for more details |Lands and Development
+Community Service Assets|A listing of community services and supports. More specifically, it includes information on emergency, transitional and supportive housing; transition and second stage housing for women; addiction and mental health services; drop-in and meal programs; education and job training opportunities; and government services. |Community
+Contours|1 meter intervals |Lands and Development
+Councillor Contact Information|The City of New Westminster wants to facilitate residents and the general public access to the elected officials of the City. | City Government
+Demographic - Detailed Age Profile (Census 2011)|Census 2011 information summarized by ages (by individual years of age and age groupings) and gender,  neighborhoods, census tracts and dissemination areas. Also contains descriptive information about the data source files and notes about the use of the data. | Business and Economy
+Demographic Profiles (Census 1986,1991,1996,2001,2006)|Information for the City of New Westminster from the 1986, 1991, 1996, 2001 and 2006 Censuses.| Business and Economy
+Demographic Profiles (Census 2011)|2011 census information summarized by | Business and Economy
+Demographic Profiles (National Household Survey 2011)|Contains tabs with 2011 National Household Survey information for the City of New Westminster, New Westminster neighbourhoods and New Westminster census tracts. National Household Survey includes information on income, housing characteristics, ethnicity, immigration, education, labour force etc. Also contains descriptive information about the data source files and notes about the use of the data. | Business and Economy
+Drinking Fountains|No Description Available|Utilities
+Election Results 1990 - Present|The spreadsheet provides the candidates, voting locations and the results for the candidate both total and by location for each election from 1990 forward. | City Government
+Emergency Incidents By Fire Hall|Emergency incident types by year by hall.  The total of yearly calls is also represented. |Public Safety
+Emergency Incidents By Fire Hall Summary|Emergency incident summary counts for past five years by hall. The total monthly and yearly calls are represented. |Public Safety
+Emergency Incidents by Type (Fire and Rescue Services)|Incident types by month/year.  The total and percentage of incidents of total calls is also represented.  Only the current year is available in .csv. |Public Safety
+Financial Disclosure Statements|This form is a mandated requirement of the Provincial government and is completed annually.
+Fire and Rescue Services Buildings|No Description Available |Public Safety
+Fire Incidents by Year|Fire incidents by year.  The total number of incidents is broken down into reportable to the Office of the Fire Commissioner and non reportable. |Public Safety
+Grants (Awarded for 2016)|A spreadsheet and accompanying documents listing grants awarded for year 2016. |Finance
+Greenways|Greenways provide important cycling routes across the City connecting from one community to another and between major parks.|Parks and Recreation
+Heritage Register|Official listing of properties deemed to have heritage value. |Heritage Datasets
+Heritage Resource Inventory| Complete unofficial listing of properties deemed to have heritage value, demolished and standing buildings. Visit the Heritage Resource Inventory Website Viewer!|Heritage Datasets
+Historical Development Statistics |Statistics per Hectare show a sample of four types of uses or content in a particular block/area; the number of residences, the number of buildings, the floor space ratio which is the ratio of a buildings total floor area to the size of the land upon which it is built, and the number of parking spaces on property in the area. |Lands and Development
+Hospital Buildings|No Description Available|Public Safety
+ICBC Crash Data|Lower mainland crashes|Transportation
+Intersections|The junctions at-grade of two or more roads either meeting or crossing. |Transportation
+Land Use|Land use represents what a parcel of land is currently being used for (i.e., the land parcel’s primary use). The land use shown in this layer does not necessarily reflect the zoning or the OCP designation of the land.|Lands and Development
+Land Use Industrial|Land use represents what a parcel of land is currently being used for (i.e., the land parcel’s primary use). The land use shown in this layer does not necessarily reflect the zoning or the OCP designation of the land.|Lands and Development
+Landuse Percentages by block |The Landuse Percentages show what proportion of a block/area has a particular use (e.g., being used for Commercial purposes or Single Family Residences). |Lands and Development
+Neighbourhoods Boundaries|These new boundaries are used for contemporary planning functions and are the basis for most of the statistics used in recent Census data published by the City of New Westminster. The boundaries for all neighbourhoods except for Downtown, North Arm North and Queens Park are the same for the redefined neighbourhood boundaries as in the original neighbourhood boundaries. | City Government
+Number of City Employees|Financial Disclosure form completed annual by all elected officials. Number of city employees by year. | City Government
+Off Leash Dog Areas|No Description Available |Parks and Recreation
+Oil Tanks (Removed/Decommissioned)|The number of underground storage tanks that are active, removed, or outstanding in the removal process, by year. |Public Safety
+Orthophotography|Aerial photography over the City of New Westminster |Lands and Development
+Parcel Blocks|Block outlines of contiguous aggregated parcels. |Lands and Development
+Parcels|No Description Available |Lands and Development
+Park Benches and Dedications|Park benches locations throughout the city.|Parks and Recreation
+Park Greenspaces|No Description Available|Parks and Recreation
+Park Structures|Park Structure data will include the structure name, structure type, quantity, monument dedication inscription, furnishing photo graph (as available) park name and/or location.  The types of park structures included in the collection are|Parks and Recreation
+Park Trails|No Description Available |Parks and Recreation
+Parking Pay Stations|Identifies the locations of all multi-space digital pay stations for parking in the City. |Transportation
+Parks|No Description Available|Parks and Recreation
+Playground |Includes the playgrounds within the parks in the City and the types of equipment available for play.|Parks and Recreation
+Police Buildings|No Description Available|Public Safety
+Projects on the Go|Current applications for rezoning, development permit and heritage revitalization agreement projects currently being processed by the City, including application status, architect/ developer information, and staff contact. |Lands and Development
+Public Art|No Description Available|Parks and Recreation
+Railways|No Description Available|Transportation
+Riparian|No Description Available | Environment
+Regulatory Signs|Regulatory street signs which also include Do Not Enter and 3 and 4 Way tabs.|Transportation
+Schedule of Goods and Services (2015)|Excel listing of all suppliers and service provides in the report period, plus the amount paid |Finance
+School Buildings|No Description Available |Community
+School Catchment Boundaries|Primary, Middle and Secondary School Boundaries. |Community
+School Sites|No Description Available |Community
+School Walking Routes|Walking to school promotes healthy and safe communities benefiting children, families, and the earth.|Transportation
+Sports Fields|Sports Fields will include various types of activity fields including those used for softball, soccer, rugby, football, and lacrosse.|Parks and Recreation
+Sewer Catchbasins|No Description Available |Utilities
+Sewer Culverts|No Description Available |Utilities
+Sewer Ditches|No Description Available |Utilities
+Sewer Mains|No Description Available |Utilities
+Sewer Maintenance Holes|No Description Available |Utilities
+Sidewalk Café Location (Sidewalk Encroachment Agreements)|List of the locations of all Sidewalk Encroachment Agreements | Business and Economy
+SkyTrain Centreline|No Description Available|Transportation
+SkyTrain Stations|SkyTrain Stations within New Westminster shown as footprints of the structure shapes. |Transportation
+SkyTrain Stations Points|SkyTrain Stations within New Westminster shown as point locations. |Transportation
+Statement of Financial Information (2015)|Remuneration of City Employees & Council Members |Finance
+Street Features|No Description Available|Transportation
+Street Names|List of all current in-use street names used within the City. |Transportation
+Street Network|Street centerlines and road classification|Transportation
+Speed Signs|These street signs include Speed Signs and Speed Tabs.|Transportation
+Survey Monuments|For more information see Mascot at GeoBC Reference Systems and Survey Monuments.|Lands and Development
+Traffic Controllers/Signals|No Description Available|Transportation
+Traffic Volumes|Traffic volume counts at midblock points between the years 2006 and 2016 inclusive. |Transportation
+Tree Inventory - East|Street trees do more than beautify our City and create community pride. Street trees have been scientifically proven to: save energy by reduce heating or cooling costs for buildings they cover calm traffic clean air filter dust absorb sound cool area under tree and absorb humidity provide habitats for birds, mammals and insects |Parks and Recreation
+Tree Inventory - West|Street trees do more than beautify our City and create community pride. Street trees have been scientifically proven to: save energy by reduce heating or cooling costs for buildings they cover calm traffic clean air filter dust absorb sound cool area under tree and absorb humidity provide habitats for birds, mammals and insects |Parks and Recreation
+Truck Routes|No Description Available|Transportation
+Warning Signs|Warning Street Signs include Object Markers, Playground Ahead, Speed Bumps, Neighbourhood Speed Humps, No Exits, School Areas, and Misc Warning Signs.|Transportation
+Water Hydrants|A hydrant is an outlet from a fluid main often consisting of an upright pipe with a valve attached from which fluid (e.g. water or fuel) can be tapped. |Utilities
+Water Pressure Zones|This polygon feature class represents each water pressure zone in the City of New Westminster water distribution system. |Utilities
+The data was developed to represent the location of water pressure zones for the purpose of mapping, analysis, planning and maintenance of utilities. The accuracy of this data varies and should not be used for precise measurements or calculations.
+Water Quality Data|A hydrant is an outlet from a fluid main often consisting of an upright pipe with a valve attached from which fluid (e.g. water or fuel) can be tapped. This data set presents the raw data from which our Annual Water Quality report is generated.  For full context for the data please refer to the report. |Utilities
+Water Valves|A device that regulates the flow of water. |Utilities
+Watermains|A principal pipe in a system of pipes for conveying water, especially one installed underground. |Utilities
+Webcam Links|Active webcam locations in New Westminster. |Transportation
+Wheelchair Ramps|No Description Available|Transportation
+Workforce - New West Resident Commuting Patterns (NHS 2011)|This file contains information on the commuting patterns of workers who live in New Westminster (regardless of which municipality their place of work is located in). The information is from the 2011 National Household Survey and contains mode of transportation, time leaving for work, commute duration and commuting destinations. Also contains descriptive information about the data source files and notes about the use of the data. | Business and Economy
+Workforce - New West Worker Commuting Patterns (NHS 2011)|Contains information on workers who work within the boundaries of the City of New Westminster (regardless of their municipality of residence). | Business and Economy
+Workforce Profile (NHS 2011)|2011 National Household Survey information on workers who work in New Westminster (regardless of municipality of residence). | Business and Economy
+Information includes occupation, industry, employment income (before-tax), work activity, age and sex and education. Also contains descriptive information about the data source files and notes about the use of the data.
+Zoning|The City of New Westminster Zoning Bylaw No. 6680 was adopted by Council September 17, 2001. Subsequent amendments to the Zoning Bylaw are consolidated for convenience only. For accurate interpretation, the public is encouraged to consult the Official Zoning Bylaw (including maps and amendments) available for viewing at City Hall in the Planning Division or Legislative Services Department. |Lands and Development

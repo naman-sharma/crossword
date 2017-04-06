@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ca.bcit.comp3717.a00936830.wordpuzzle">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Crossword Puzzle"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".StartPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Select_Page" />
+        <activity android:name=".parks_level1" />
+        <activity android:name=".parks_level2" />
+        <activity android:name=".parks_level3" />
+        <activity android:name=".ABOUT" />
+        <activity android:name=".Success" />
+        <activity android:name=".Failure" />
+        <activity android:name=".parks_select" />
+        <activity android:name=".streets_select" />
+        <activity
+            android:name=".publicart_select"
+            android:label="@string/title_activity_publicart_selectr"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

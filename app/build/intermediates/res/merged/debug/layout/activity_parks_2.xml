@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_game1_2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ca.bcit.comp3717.a00936830.wordpuzzle.parks_level1"
+    android:background="@android:color/holo_green_dark">
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/D_redboat"
+        android:layout_alignBaseline="@+id/M1_community"
+        android:layout_alignBottom="@+id/M1_community"
+        android:layout_toStartOf="@+id/B_redboat" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/E_redboat"
+        android:layout_alignBaseline="@+id/M1_community"
+        android:layout_alignBottom="@+id/M1_community"
+        android:layout_toStartOf="@+id/D_redboat" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/R_redboat"
+        android:layout_alignBaseline="@+id/M1_community"
+        android:layout_alignBottom="@+id/M1_community"
+        android:layout_toStartOf="@+id/E_redboat" />
+
+    <TextView
+        android:text="E"
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/E_gateway"
+        android:layout_alignBaseline="@+id/T_community"
+        android:layout_alignBottom="@+id/T_community"
+        android:layout_toStartOf="@+id/R2_riverside" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/W_gateway"
+        android:layout_below="@+id/R2_riverside"
+        android:layout_alignStart="@+id/E_gateway" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/A2_gateway"
+        android:layout_below="@+id/W_gateway"
+        android:layout_alignStart="@+id/W_gateway" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/Y_gateway"
+        android:layout_below="@+id/A2_gateway"
+        android:layout_alignStart="@+id/A2_gateway" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/T_gateway"
+        android:layout_above="@+id/E_gateway"
+        android:layout_alignStart="@+id/E_gateway" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/A1_gateway"
+        android:layout_above="@+id/T_gateway"
+        android:layout_alignStart="@+id/T_gateway" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/G_gateway"
+        android:layout_above="@+id/A1_gateway"
+        android:layout_alignStart="@+id/A1_gateway" />
+
+    <TextView
+        android:text="E"
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/E1_riverside"
+        android:layout_alignBaseline="@+id/E_gateway"
+        android:layout_alignBottom="@+id/E_gateway"
+        android:layout_alignStart="@+id/E_gateway" />
+
+    <Button
+        android:text="Done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/done11"
+        android:layout_below="@+id/A2_gateway"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="24dp" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/R2_riverside"
+        android:layout_alignBaseline="@+id/S_riverside"
+        android:layout_alignBottom="@+id/S_riverside"
+        android:layout_toStartOf="@+id/S_riverside" />
+
+    <TextView
+        android:text="I"
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/T_community"
+        android:layout_below="@+id/I_community"
+        android:layout_toStartOf="@+id/done11" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/S_riverside"
+        android:layout_below="@+id/I_community"
+        android:layout_toStartOf="@+id/Y_community" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/I_community"
+        android:layout_below="@+id/N_community"
+        android:layout_toEndOf="@+id/S_riverside" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/N_community"
+        android:layout_below="@+id/U_community"
+        android:layout_alignStart="@+id/I_community" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/U_community"
+        android:layout_below="@+id/M2_community"
+        android:layout_alignStart="@+id/N_community" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/M2_community"
+        android:layout_below="@+id/M1_community"
+        android:layout_alignStart="@+id/U_community" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/A_redboat"
+        android:layout_above="@+id/M2_community"
+        android:layout_toEndOf="@+id/M2_community" />
+
+    <TextView
+        android:text="O"
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/O_redboat"
+        android:layout_alignBaseline="@+id/M1_community"
+        android:layout_alignBottom="@+id/M1_community"
+        android:layout_toStartOf="@+id/A_redboat" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/B_redboat"
+        android:layout_alignBaseline="@+id/D_redboat"
+        android:layout_alignBottom="@+id/D_redboat"
+        android:layout_toStartOf="@+id/M2_community" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/M1_community"
+        android:layout_below="@+id/C_community"
+        android:layout_toEndOf="@+id/B_redboat" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_height="35dp"
+        android:id="@+id/R1_riverside"
+        android:layout_alignBaseline="@+id/I1_riverside"
+        android:layout_alignBottom="@+id/I1_riverside"
+        android:layout_alignParentStart="true"
+        android:layout_width="33dp" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/I1_riverside"
+        android:layout_alignBaseline="@+id/V_riverside"
+        android:layout_alignBottom="@+id/V_riverside"
+        android:layout_toEndOf="@+id/R1_riverside" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/V_riverside"
+        android:layout_alignBaseline="@+id/E_gateway"
+        android:layout_alignBottom="@+id/E_gateway"
+        android:layout_toStartOf="@+id/E_gateway" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/E2_riverside"
+        android:layout_alignBaseline="@+id/T_community"
+        android:layout_alignBottom="@+id/T_community"
+        android:layout_toEndOf="@+id/Y_community" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/D_riverside"
+        android:layout_alignBaseline="@+id/E2_riverside"
+        android:layout_alignBottom="@+id/E2_riverside"
+        android:layout_toEndOf="@+id/E2_riverside" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/T_redboat"
+        android:layout_alignBaseline="@+id/A_redboat"
+        android:layout_alignBottom="@+id/A_redboat"
+        android:layout_toEndOf="@+id/A_redboat" />
+
+    <TextView
+        android:text="I"
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/I2_riverside"
+        android:layout_alignBaseline="@+id/T_community"
+        android:layout_alignBottom="@+id/T_community"
+        android:layout_toEndOf="@+id/S_riverside" />
+
+    <TextView
+        android:text = "O"
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/O_community"
+        android:layout_alignBaseline="@+id/A_redboat"
+        android:layout_alignBottom="@+id/A_redboat"
+        android:layout_toEndOf="@+id/B_redboat" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/C_community"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/B_redboat" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/Y_community"
+        android:layout_above="@+id/done11"
+        android:layout_toStartOf="@+id/done11" />
+
+    <EditText
+        android:textSize="14sp"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/T1_community"
+        android:layout_below="@+id/T_community"
+        android:layout_alignStart="@+id/Y_community" />
+
+</RelativeLayout>

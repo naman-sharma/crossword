@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ca.bcit.comp3717.a00936830.wordpuzzle"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="25" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Crossword Puzzle"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="ca.bcit.comp3717.a00936830.wordpuzzle.StartPage" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="ca.bcit.comp3717.a00936830.wordpuzzle.Select_Page" />
+        <activity android:name="ca.bcit.comp3717.a00936830.wordpuzzle.parks_level1" />
+        <activity android:name="ca.bcit.comp3717.a00936830.wordpuzzle.parks_level2" />
+        <activity android:name="ca.bcit.comp3717.a00936830.wordpuzzle.parks_level3" />
+        <activity android:name="ca.bcit.comp3717.a00936830.wordpuzzle.ABOUT" />
+        <activity android:name="ca.bcit.comp3717.a00936830.wordpuzzle.Success" />
+        <activity android:name="ca.bcit.comp3717.a00936830.wordpuzzle.Failure" />
+        <activity android:name="ca.bcit.comp3717.a00936830.wordpuzzle.parks_select" />
+        <activity android:name="ca.bcit.comp3717.a00936830.wordpuzzle.streets_select" />
+        <activity
+            android:name="ca.bcit.comp3717.a00936830.wordpuzzle.publicart_select"
+            android:label="@string/title_activity_publicart_selectr"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>
